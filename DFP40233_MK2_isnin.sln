@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DFP40233_MK2_isnin", "DFP40233_MK2_isnin\DFP40233_MK2_isnin.vbproj", "{F9C551B8-71ED-4A8C-A09B-C4C4E6494ACF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9C551B8-71ED-4A8C-A09B-C4C4E6494ACF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9C551B8-71ED-4A8C-A09B-C4C4E6494ACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9C551B8-71ED-4A8C-A09B-C4C4E6494ACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9C551B8-71ED-4A8C-A09B-C4C4E6494ACF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98AF76F2-40FD-4B7A-80F5-ACFF3D011AAE}
+	EndGlobalSection
+EndGlobal
