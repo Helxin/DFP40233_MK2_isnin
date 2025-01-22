@@ -44,10 +44,10 @@ Partial Class Maklumat_Pelanggan
         ckbKopi = New CheckBox()
         dtpTarikh = New DateTimePicker()
         dgvStatistik = New DataGridView()
-        btnCreate = New Button()
-        btnUpdate = New Button()
-        btnRead = New Button()
-        btnDelete = New Button()
+        BtnCreate = New Button()
+        BtnUpdate = New Button()
+        BtnRead = New Button()
+        BtnDelete = New Button()
         Label4 = New Label()
         clmBil = New DataGridViewTextBoxColumn()
         clmNama = New DataGridViewTextBoxColumn()
@@ -262,41 +262,41 @@ Partial Class Maklumat_Pelanggan
         dgvStatistik.Size = New Size(625, 334)
         dgvStatistik.TabIndex = 13
         ' 
-        ' btnCreate
+        ' BtnCreate
         ' 
-        btnCreate.Location = New Point(117, 500)
-        btnCreate.Name = "btnCreate"
-        btnCreate.Size = New Size(112, 34)
-        btnCreate.TabIndex = 14
-        btnCreate.Text = "Create"
-        btnCreate.UseVisualStyleBackColor = True
+        BtnCreate.Location = New Point(117, 500)
+        BtnCreate.Name = "BtnCreate"
+        BtnCreate.Size = New Size(112, 34)
+        BtnCreate.TabIndex = 14
+        BtnCreate.Text = "Create"
+        BtnCreate.UseVisualStyleBackColor = True
         ' 
-        ' btnUpdate
+        ' BtnUpdate
         ' 
-        btnUpdate.Location = New Point(117, 540)
-        btnUpdate.Name = "btnUpdate"
-        btnUpdate.Size = New Size(112, 34)
-        btnUpdate.TabIndex = 15
-        btnUpdate.Text = "Update"
-        btnUpdate.UseVisualStyleBackColor = True
+        BtnUpdate.Location = New Point(117, 540)
+        BtnUpdate.Name = "BtnUpdate"
+        BtnUpdate.Size = New Size(112, 34)
+        BtnUpdate.TabIndex = 15
+        BtnUpdate.Text = "Update"
+        BtnUpdate.UseVisualStyleBackColor = True
         ' 
-        ' btnRead
+        ' BtnRead
         ' 
-        btnRead.Location = New Point(235, 500)
-        btnRead.Name = "btnRead"
-        btnRead.Size = New Size(112, 34)
-        btnRead.TabIndex = 16
-        btnRead.Text = "Read"
-        btnRead.UseVisualStyleBackColor = True
+        BtnRead.Location = New Point(235, 500)
+        BtnRead.Name = "BtnRead"
+        BtnRead.Size = New Size(112, 34)
+        BtnRead.TabIndex = 16
+        BtnRead.Text = "Read"
+        BtnRead.UseVisualStyleBackColor = True
         ' 
-        ' btnDelete
+        ' BtnDelete
         ' 
-        btnDelete.Location = New Point(235, 540)
-        btnDelete.Name = "btnDelete"
-        btnDelete.Size = New Size(112, 34)
-        btnDelete.TabIndex = 17
-        btnDelete.Text = "Delete"
-        btnDelete.UseVisualStyleBackColor = True
+        BtnDelete.Location = New Point(235, 540)
+        BtnDelete.Name = "BtnDelete"
+        BtnDelete.Size = New Size(112, 34)
+        BtnDelete.TabIndex = 17
+        BtnDelete.Text = "Delete"
+        BtnDelete.UseVisualStyleBackColor = True
         ' 
         ' Label4
         ' 
@@ -335,10 +335,10 @@ Partial Class Maklumat_Pelanggan
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(1235, 870)
         Controls.Add(Label4)
-        Controls.Add(btnDelete)
-        Controls.Add(btnRead)
-        Controls.Add(btnUpdate)
-        Controls.Add(btnCreate)
+        Controls.Add(BtnDelete)
+        Controls.Add(BtnRead)
+        Controls.Add(BtnUpdate)
+        Controls.Add(BtnCreate)
         Controls.Add(dgvStatistik)
         Controls.Add(dtpTarikh)
         Controls.Add(gpbPerisa)
@@ -387,10 +387,10 @@ Partial Class Maklumat_Pelanggan
     Friend WithEvents ckbKopi As CheckBox
     Friend WithEvents dtpTarikh As DateTimePicker
     Friend WithEvents dgvStatistik As DataGridView
-    Friend WithEvents btnCreate As Button
-    Friend WithEvents btnUpdate As Button
-    Friend WithEvents btnRead As Button
-    Friend WithEvents btnDelete As Button
+    Friend WithEvents BtnCreate As Button
+    Friend WithEvents BtnUpdate As Button
+    Friend WithEvents BtnRead As Button
+    Friend WithEvents BtnDelete As Button
     Friend WithEvents Label4 As Label
     Friend WithEvents clmBil As DataGridViewTextBoxColumn
     Friend WithEvents clmNama As DataGridViewTextBoxColumn
