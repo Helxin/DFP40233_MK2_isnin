@@ -34,6 +34,7 @@ Namespace My
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
             Me.MainForm = Global.DFP40233_MK2_isnin.Maklumat_Pelanggan
+
         End Sub
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
