@@ -20,7 +20,7 @@ Partial Class Maklumat_Pelanggan
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         lblNama = New Label()
         txtNama = New TextBox()
@@ -322,7 +322,7 @@ Partial Class Maklumat_Pelanggan
         ' Label4
         ' 
         Label4.AutoSize = True
-        Label4.Font = New Font("Segoe UI Black", 24F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label4.Font = New Font("Segoe UI Black", 24.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label4.Location = New Point(257, 21)
         Label4.Name = "Label4"
         Label4.Size = New Size(636, 65)
@@ -331,7 +331,7 @@ Partial Class Maklumat_Pelanggan
         ' 
         ' Maklumat_Pelanggan
         ' 
-        AutoScaleDimensions = New SizeF(10F, 25F)
+        AutoScaleDimensions = New SizeF(10.0F, 25.0F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(1235, 870)
         Controls.Add(Label4)
