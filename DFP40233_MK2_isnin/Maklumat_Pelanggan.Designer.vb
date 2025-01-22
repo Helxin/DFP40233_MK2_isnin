@@ -43,14 +43,14 @@ Partial Class Maklumat_Pelanggan
         ckbKopi = New CheckBox()
         dtpTarikh = New DateTimePicker()
         dgvStatistik = New DataGridView()
+        clmBil = New DataGridViewTextBoxColumn()
+        clmNama = New DataGridViewTextBoxColumn()
+        clmNoTelefon = New DataGridViewTextBoxColumn()
         BtnCreate = New Button()
         BtnUpdate = New Button()
         BtnRead = New Button()
         BtnDelete = New Button()
-        Label4 = New Label()
-        clmBil = New DataGridViewTextBoxColumn()
-        clmNama = New DataGridViewTextBoxColumn()
-        clmNoTelefon = New DataGridViewTextBoxColumn()
+        lblTitle = New Label()
         gpbJantina.SuspendLayout()
         gpbKaedahPembayaran.SuspendLayout()
         gpbPerisa.SuspendLayout()
@@ -261,6 +261,27 @@ Partial Class Maklumat_Pelanggan
         dgvStatistik.Size = New Size(625, 334)
         dgvStatistik.TabIndex = 13
         ' 
+        ' clmBil
+        ' 
+        clmBil.HeaderText = "Bil"
+        clmBil.MinimumWidth = 8
+        clmBil.Name = "clmBil"
+        clmBil.Width = 150
+        ' 
+        ' clmNama
+        ' 
+        clmNama.HeaderText = "Nama"
+        clmNama.MinimumWidth = 8
+        clmNama.Name = "clmNama"
+        clmNama.Width = 150
+        ' 
+        ' clmNoTelefon
+        ' 
+        clmNoTelefon.HeaderText = "No. Telefon"
+        clmNoTelefon.MinimumWidth = 8
+        clmNoTelefon.Name = "clmNoTelefon"
+        clmNoTelefon.Width = 150
+        ' 
         ' BtnCreate
         ' 
         BtnCreate.Location = New Point(117, 500)
@@ -297,43 +318,22 @@ Partial Class Maklumat_Pelanggan
         BtnDelete.Text = "Delete"
         BtnDelete.UseVisualStyleBackColor = True
         ' 
-        ' Label4
+        ' lblTitle
         ' 
-        Label4.AutoSize = True
-        Label4.Font = New Font("Segoe UI Black", 24F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label4.Location = New Point(257, 21)
-        Label4.Name = "Label4"
-        Label4.Size = New Size(636, 65)
-        Label4.TabIndex = 18
-        Label4.Text = "MAKLUMAT PELANGGAN"
-        ' 
-        ' clmBil
-        ' 
-        clmBil.HeaderText = "Bil"
-        clmBil.MinimumWidth = 8
-        clmBil.Name = "clmBil"
-        clmBil.Width = 150
-        ' 
-        ' clmNama
-        ' 
-        clmNama.HeaderText = "Nama"
-        clmNama.MinimumWidth = 8
-        clmNama.Name = "clmNama"
-        clmNama.Width = 150
-        ' 
-        ' clmNoTelefon
-        ' 
-        clmNoTelefon.HeaderText = "No. Telefon"
-        clmNoTelefon.MinimumWidth = 8
-        clmNoTelefon.Name = "clmNoTelefon"
-        clmNoTelefon.Width = 150
+        lblTitle.AutoSize = True
+        lblTitle.Font = New Font("Segoe UI Black", 24.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblTitle.Location = New Point(257, 21)
+        lblTitle.Name = "lblTitle"
+        lblTitle.Size = New Size(636, 65)
+        lblTitle.TabIndex = 18
+        lblTitle.Text = "MAKLUMAT PELANGGAN"
         ' 
         ' Maklumat_Pelanggan
         ' 
-        AutoScaleDimensions = New SizeF(10F, 25F)
+        AutoScaleDimensions = New SizeF(10.0F, 25.0F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(1235, 870)
-        Controls.Add(Label4)
+        Controls.Add(lblTitle)
         Controls.Add(BtnDelete)
         Controls.Add(BtnRead)
         Controls.Add(BtnUpdate)
@@ -390,7 +390,7 @@ Partial Class Maklumat_Pelanggan
     Friend WithEvents BtnUpdate As Button
     Friend WithEvents BtnRead As Button
     Friend WithEvents BtnDelete As Button
-    Friend WithEvents Label4 As Label
+    Friend WithEvents lblTitle As Label
     Friend WithEvents clmBil As DataGridViewTextBoxColumn
     Friend WithEvents clmNama As DataGridViewTextBoxColumn
     Friend WithEvents clmNoTelefon As DataGridViewTextBoxColumn
