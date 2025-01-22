@@ -30,7 +30,7 @@ Partial Class Maklumat_Pelanggan
         lblNoTelefon = New Label()
         cmbNegeri = New ComboBox()
         lblNegeri = New Label()
-        BackgroundWorker1 = New ComponentModel.BackgroundWorker()
+        bwkMaklumatPelanggan = New ComponentModel.BackgroundWorker()
         gpbJantina = New GroupBox()
         rdoPerempuan = New RadioButton()
         rdoLelaki = New RadioButton()
@@ -373,7 +373,7 @@ Partial Class Maklumat_Pelanggan
     Friend WithEvents lblNoTelefon As Label
     Friend WithEvents cmbNegeri As ComboBox
     Friend WithEvents lblNegeri As Label
-    Friend WithEvents BackgroundWorker1 As System.ComponentModel.BackgroundWorker
+    Friend WithEvents bwkMaklumatPelanggan As System.ComponentModel.BackgroundWorker
     Friend WithEvents gpbJantina As GroupBox
     Friend WithEvents rdoPerempuan As RadioButton
     Friend WithEvents rdoLelaki As RadioButton
