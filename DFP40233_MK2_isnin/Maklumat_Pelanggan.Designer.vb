@@ -30,7 +30,6 @@ Partial Class Maklumat_Pelanggan
         lblNoTelefon = New Label()
         cmbNegeri = New ComboBox()
         lblNegeri = New Label()
-        bwkMaklumatPelanggan = New ComponentModel.BackgroundWorker()
         gpbJantina = New GroupBox()
         rdoPerempuan = New RadioButton()
         rdoLelaki = New RadioButton()
